@@ -7,7 +7,7 @@ public class SeqList {
 
     public RecordNode[] r;    //顺序表记录结点数组
     public int curlen;        //顺序表长度,即记录个数
-/*
+
     public RecordNode[] getRecord() {
         return r;
     }
@@ -15,7 +15,7 @@ public class SeqList {
     public void setRecord(RecordNode[] r) {
         this.r = r;
     }
-*/
+
     public SeqList(){}
     
     // 顺序表的构造方法，构造一个存储空间容量为maxSize的顺序表
@@ -448,7 +448,7 @@ class TreeNode {      //胜者树的结点类
     public RecordNode data;  //排序记录结点数据值
     public int index;        //结点在满二叉树中的序号
     public int active;       //参加选择标志，1表示参选，0表示不参选
-/*
+
     public int getActive() {
         return active;
     }
@@ -472,5 +472,5 @@ class TreeNode {      //胜者树的结点类
     public void setIndex(int index) {
         this.index = index;
     }
-*/
 }
+

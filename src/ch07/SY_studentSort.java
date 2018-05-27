@@ -6,8 +6,6 @@ public class SY_studentSort {
 	private SeqList list;
 	private Scanner scanner;
 	private SY_student[]stu;
-	
-	
 	public SY_studentSort() throws Exception {
 		scanner=new Scanner(System.in);
 		System.out.println("please input student number");
@@ -46,7 +44,8 @@ public class SY_studentSort {
 		System.out.println("number"+"\t"+"name"+"\t"+"english"+"\t"+"math"+"\t"+"total");
 		for (int i = 0; i < stu.length; i++) {
 			SY_student s=(SY_student)list.r[i].element;
-			System.out.println(s.getNum()+"\t"+s.getName()+"\t"+s.getEnglish()+"\t"+s.getMath()+"\t"+s.getTotal());
+			System.out.println(s.getNum()+"\t"+s.getName()+"\t"+s.getEnglish()
+			+"\t"+s.getMath()+"\t"+s.getTotal());
 		}
 		System.out.println("\n");
 	}

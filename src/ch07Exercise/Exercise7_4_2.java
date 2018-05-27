@@ -7,7 +7,7 @@ import ch07.SeqList;
  * 4.2:编写程序，对带监视哨的直接插入排序进行测试。
  *  @author dux
  */
-public class Exercise7_4_2 extends SeqList {
+public class Exercise7_4_2 extends SeqList{
 
     public Exercise7_4_2(int maxSize) {
         super(maxSize);

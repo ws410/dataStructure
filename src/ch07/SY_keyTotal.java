@@ -2,9 +2,6 @@ package ch07;
 
 public class SY_keyTotal implements Comparable<SY_keyTotal> {
 	private double totalScore;   //关键字
-
-    
-
     public SY_keyTotal(double totalScore) {
 		this.totalScore = totalScore;
 	}
@@ -19,8 +16,4 @@ public class SY_keyTotal implements Comparable<SY_keyTotal> {
         double anotherVal = another.totalScore;
         return (thisVal < anotherVal ? -1 : (thisVal == anotherVal ? 0 : 1));
 	}
-
-	
-	
-
 }

@@ -14,7 +14,7 @@ public class BSTree { //二叉排序树类
     public BSTree() {  //构造空二叉排序树
         root = null;
     }
-/*
+
     public BiTreeNode getRoot() {
         return root;
     }
@@ -22,7 +22,7 @@ public class BSTree { //二叉排序树类
     public void setRoot(BiTreeNode root) {
         this.root = root;
     }
-*/
+
     
     public boolean isEmpty() { //判断是否空二叉树
         return this.root == null;
@@ -31,7 +31,7 @@ public class BSTree { //二叉排序树类
     public void inOrderTraverse(BiTreeNode p) { //中根次序遍历以p结点为根的二叉树
         if (p != null) {
             inOrderTraverse(p.lchild);
-            System.out.print(((RecordNode) p.data).toString() + "");
+            System.out.print(((RecordNode) p.data).toString() + "\n");
             inOrderTraverse(p.rchild);
         }
     }

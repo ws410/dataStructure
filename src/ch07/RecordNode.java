@@ -7,7 +7,7 @@ public class RecordNode {
 
 	public Comparable key; // 关键字
 	public Object element; // 数据元素
-/*
+
 	public Object getElement() {
 		return element;
 	}
@@ -23,7 +23,7 @@ public class RecordNode {
 	public void setKey(Comparable key) {
 		this.key = key;
 	}
-*/
+
 	public RecordNode() {
 	}
 
@@ -38,6 +38,7 @@ public class RecordNode {
 	}
 
 	public String toString() { // 覆盖toString()方法
-		return "[" + key + "," + element + "]";
+//		return "[" + key + "," + element + "]";
+		return element+"";
 	}
 }
